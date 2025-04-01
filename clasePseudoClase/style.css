@@ -1,0 +1,28 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: #13A4A4;
+}
+.main-nav__item{
+    display: inline-block;
+}
+.main-nav__item a{
+    color: white;
+    padding: 5px;
+    /*border-radius: 2px;*/
+    text-decoration: none;
+}
+
+/*PseudoClases*/
+.main-nav__item a:hover{ /*cuando el mouse este sobre el elemento*/
+    color: blue;
+}
+.main-nav__item a:active{ /*indica que el elemento fue seleccionado*/
+    color: red;
+}
+
+/*PseudoElementos*/
+.main-nav__item a::after{
+    content: " | ";
+}
