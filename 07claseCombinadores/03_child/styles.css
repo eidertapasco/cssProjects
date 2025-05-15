@@ -1,0 +1,7 @@
+/*A > B Significado: Selecciona todos los elementos B que son hijos directos de A (no nietos ni bisnietos).*/
+
+div > p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: green;
+}

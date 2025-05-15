@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: purple;
+    margin-bottom: 10px;
+}
+/*quitamos el id #page-title y reemplazamos por class .title*/
+
+.title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 48px;
+}
+/*quitamos el id #main-nav y reemplazmos por class .nav*/
+.nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+}
+/*quitamos el id #main-nav li y reemplazmos por class .nav li*/             /*Selector Specificity: 1,0,1 corresponde a Id, clases, Etiquetas*/
+.nav li{
+    display: inline-block;
+}
+/*quitamos el id #main-nav li y reemplazmos por class .nav a*/ 
+.nav a{
+    color: white;
+    background-color: #13a4a4;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.nav .instructores{
+    background-color: red;
+}

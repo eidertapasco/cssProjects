@@ -1,0 +1,20 @@
+🔹 Reto 2: Lista de tareas estilo minimalista
+Objetivo: Reforzar combinadores, pseudoclases y herencia.
+
+Instrucciones:
+
+Usa <ul> para una lista de 5 tareas.
+
+Aplica estilos distintos a:
+
+El primer hijo usando li:first-child.
+
+El último hijo con li:last-child.
+
+Cada tarea cuando el mouse pasa encima con :hover.
+
+Usa el combinador ul > li para aplicar un estilo general a todos los hijos directos.
+
+Usa ul li + li para aplicar margen solo a los elementos que siguen a otro.
+
+Bonus: Usa una pseudoclase para marcar tareas completadas con li.completed.

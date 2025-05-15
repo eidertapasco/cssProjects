@@ -1,0 +1,16 @@
+🔹 Reto 5: Caja de artículo con imagen
+Objetivo: Aplicar modelo de caja, pseudoelementos y medidas.
+
+Instrucciones:
+
+Crea una caja con una imagen arriba, un título y un párrafo.
+
+Usa etiquetas semánticas: <figure>, <figcaption>, <section>.
+
+Aplica box-sizing: border-box.
+
+Usa max-width, padding en rem, bordes y un ::after decorativo.
+
+Haz que la imagen tenga un width: 100% dentro de su contenedor.
+
+Bonus: Agrega una sombra a la caja al hacer :hover.

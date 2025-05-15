@@ -1,0 +1,6 @@
+/*A B Significado: Selecciona todos los elementos B que están dentro de A, sin importar cuán profundos estén (hijos, nietos, bisnietos...).*/
+
+div p{
+    color: deeppink;
+    font-weight: bold;
+}

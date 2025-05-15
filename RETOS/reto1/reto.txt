@@ -1,0 +1,18 @@
+🔹 Reto 1: Tarjeta de presentación personal
+Objetivo: Practicar modelo de caja, medidas, pseudoelementos y HTML semántico.
+
+Instrucciones:
+
+Crea una tarjeta de presentación con tu nombre, profesión y una pequeña biografía.
+
+Usa etiquetas semánticas como <section>, <article>, <h1>, <p>.
+
+Usa box-sizing: border-box en toda la página.
+
+Establece un max-width para la tarjeta y centra con margin.
+
+Agrega un pseudoelemento ::before decorativo encima del nombre (como una barra de color).
+
+Usa em o rem para paddings y márgenes internos.
+
+Bonus: Cambia el fondo de la tarjeta con :hover.

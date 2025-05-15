@@ -1,0 +1,6 @@
+/*A ~ B Significado: Selecciona todos los hermanos B que vienen después de A, 
+sin importar que estén juntos o no, mientras compartan el mismo padre.*/
+
+h2 ~ p{
+    color: blue;
+}

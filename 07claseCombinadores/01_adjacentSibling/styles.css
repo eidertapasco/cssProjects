@@ -1,0 +1,6 @@
+/*Busca un <h2>, y si justo después hay un <p>, aplica el estilo al <p>
+o de forma mas tecnica: A + B Significado: Selecciona el hermano inmediato B que viene justo después de A.
+*/
+h2 + p {
+    color: red;
+}

@@ -1,0 +1,9 @@
+/*html font size = 16px*/
+.text-container{
+    font-size: 1.5em; /*1em = 16px tomara el tamaño de fuente de su padre directo*/
+}
+
+/*Cuidado con EM porque puede dañar los otros estilos.*/
+.text-container div{
+    font-size: 1.5em; /*El texto se vera mas grande porque esta tomando el tamaño de su padre directo.*/
+}

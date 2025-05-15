@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%; /*Para poder utilizar medidas REM*/
+}
+main{
+    font-size: 1.6rem;
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+}
+section{
+    width: 80%; /*width base por si vamos a utilizar el min width o max width*/
+    min-width: 320px;
+    max-width: 500px;
+    /*para el min-height max heigth no se necesita un height base ej: height: 500px;*/
+    min-height: 500px;
+    max-height: 90rem;
+    margin: 0 auto; /*de arriba hacia abajo nada, de izquierda a derecha se alinea de forma auto*/
+    background-color: aqua;
+}
+/* p{
+    font-size: 1.6rem;
+} */

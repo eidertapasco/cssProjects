@@ -1,0 +1,24 @@
+Reto 3: Estructura básica de un blog
+Objetivo: Poner en práctica HTML semántico, medidas y combinadores.
+
+Instrucciones:
+
+Estructura básica:
+
+<header>
+    <main>
+        <article>
+            <h2>Título</h2>
+            <p>Contenido</p>
+        </article>
+        <aside>Barra lateral</aside>
+    </main>
+<footer>
+
+Usa medidas como min-width, max-width, em, rem.
+
+Aplica combinadores para dar estilo solo a los <p> que están dentro de un <article>.
+
+Usa box-sizing: border-box y ajusta paddings y bordes para evitar desbordes.
+
+Bonus: Crea un :hover en los títulos <h2> para cambiar el color.

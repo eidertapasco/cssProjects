@@ -1,0 +1,14 @@
+🔹 Reto 4: Menú de navegación vertical
+Objetivo: Practicar herencia, pseudoclases, combinadores.
+
+Instrucciones:
+
+Crea una lista <nav> con enlaces (<a>) verticales.
+
+Usa un combinador como nav a + a para agregar un margen superior solo entre enlaces.
+
+Cambia el estilo de los enlaces cuando el mouse pasa encima (:hover) y cuando están activos (:active).
+
+Usa medidas relativas (como rem) para los paddings y el tamaño de fuente.
+
+Bonus: Cambia el color del primer enlace con :first-child.
