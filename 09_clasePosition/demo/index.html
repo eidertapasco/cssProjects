@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo de Position en CSS</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 200vh; /* Para probar el scroll */
+    }
+
+    h1 {
+      text-align: center;
+      padding: 1rem;
+      background-color: #111D4A;
+      color: white;
+    }
+
+    .contenedor {
+      position: relative;
+      padding: 2rem;
+      margin-top: 2rem;
+      border: 2px solid #ccc;
+    }
+
+    .box {
+      width: 200px;
+      height: 100px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+
+    .static {
+      background: #1E1E24;
+      position: static;
+    }
+
+    .relative {
+      background: #92140C;
+      position: relative;
+      top: 10px;
+      left: 20px;
+    }
+
+    .absolute {
+      background: #FFCF99;
+      color: black;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+
+    .fixed {
+      background: #111D4A;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+
+    .sticky {
+      background: #FF8C42;
+      position: sticky;
+      top: 0;
+    }
+
+    p {
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Tipos de Position en CSS</h1>
+
+  <div class="contenedor">
+    <div class="box static">static</div>
+    <div class="box relative">relative</div>
+    <div class="box absolute">absolute</div>
+  </div>
+
+  <p>Haz scroll hacia abajo para ver cómo actúan <strong>fixed</strong> y <strong>sticky</strong>.</p>
+
+  <div class="box sticky">sticky</div>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+  <p>Aliquam erat volutpat. In at sapien ut nunc rutrum tincidunt. Etiam nec sapien a quam tincidunt suscipit.</p>
+  <p>Proin vel turpis at libero cursus varius. Sed malesuada eu lorem a vehicula.</p>
+
+  <div class="box fixed">fixed</div>
+
+</body>
+</html>

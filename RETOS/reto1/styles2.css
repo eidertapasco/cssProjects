@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 700px;
+  width: 100%;
+}
+
+.card-left {
+  background-color: #7c9cd6;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover; /*Llena todo el contenedor con la img*/
+  border: 3px solid #2f3f74;
+}
+
+.card-right {
+  padding: 2rem; /*aqui toma los 16px del html*/
+  flex: 1; /*es una abreviatura de: flex-grow: 1; flex-shrink: 1; flex-basis: 0;.*/
+}
+
+.card-right h1 {
+  font-size: 1.8rem;
+  color: #2f3f74;
+}
+
+.card-right h3 {
+  font-size: 1.1rem;
+  color: #6c7a92;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /*define el espacio entre las filas y columnas de un diseño de cuadrícula, flexbox o multicolumna.*/
+}
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.contact-row img {
+  width: 20px;
+  height: 20px;
+}
+
+.contact-row p {
+  font-size: 1rem;
+  color: #2f3f74;
+}
+
+/* Responsivo para pantallas pequeñas */
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .card-left {
+    padding: 1.5rem;
+  }
+
+  .card-right {
+    padding: 1.5rem;
+  }
+
+  .contact-row {
+    justify-content: center;
+  }
+}

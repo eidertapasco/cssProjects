@@ -1,20 +1,18 @@
-🔹 Reto 2: Lista de tareas estilo minimalista
-Objetivo: Reforzar combinadores, pseudoclases y herencia.
+🔹 Reto 2: Ficha histórica
+Objetivo: Practicar HTML semántico, pseudoelementos y medidas relativas.
 
 Instrucciones:
 
-Usa <ul> para una lista de 5 tareas.
+Crea una ficha informativa sobre un personaje histórico (puede ser real o ficticio).
 
-Aplica estilos distintos a:
+Usa etiquetas como <section>, <h2>, <p>, <figure>, <figcaption>.
 
-El primer hijo usando li:first-child.
+Aplica box-sizing: border-box en toda la página.
 
-El último hijo con li:last-child.
+Usa max-width y centra la ficha con margin.
 
-Cada tarea cuando el mouse pasa encima con :hover.
+Agrega un ::before como una barra vertical decorativa al lado izquierdo del <h2>.
 
-Usa el combinador ul > li para aplicar un estilo general a todos los hijos directos.
+Usa em o rem para los márgenes internos.
 
-Usa ul li + li para aplicar margen solo a los elementos que siguen a otro.
-
-Bonus: Usa una pseudoclase para marcar tareas completadas con li.completed.
+Bonus: Cambia el fondo de la ficha cuando se le hace :hover.

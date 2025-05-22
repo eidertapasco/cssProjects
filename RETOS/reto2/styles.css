@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content{
+    background-color: #f4f4f4;
+    width: 80vh;
+    min-height: 800px;
+    margin: 50px 0px;
+    border-radius: 5px;
+    padding: 2rem;
+    border: 2px #7c9cd6 solid;
+}
+.main-content h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: gray;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.genius-description{
+    border: 1px #7c9cd6 solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.genius-description img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    border: 2px #7c9cd6 solid;
+    object-fit: cover;
+}
+.genius-content {
+    flex: 1;
+}
+.genius-content h2{
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    color: #333;
+}
+.genius-content p{
+    font-size: 1.4rem;
+    color: #555;
+}
+
+/*Hovers*/
+.genius-description:hover{
+    background-color: #9cbffd;
+}
+.genius-description p:hover{
+    color: #f4f4f4;
+}
+.genius-description h2:hover{
+    color: #f4f4f4;
+}

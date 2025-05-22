@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 62.5%;
+    line-height: 1;
+    overflow-x: hidden;
+}
+
+/*-----------------NAVIGATION--------------------*/
+
+.main-header {
+    background-color: #F1F1EF;
+    width: 100%; /* corregido */
+    height: 80px;
+    position: relative;
+    font-size: 0;
+}
+
+.header-logo {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2.5rem;
+    color: #A77550;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.main-nav {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.8rem;
+}
+
+.main-nav a {
+    display: inline-block;
+    color: #A77550;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+}
+
+/*----------------------MAIN CONTAINER--------------------------*/
+
+.main-container {
+    white-space: nowrap; /* <- fuerza los inline-block a no hacer salto */
+    font-size: 0;         /* <- elimina espacios entre los inline-block */
+    width: 100%;
+}
+/*----------------ASIDE---------------------*/
+
+.main-div {
+    display: inline-block;
+    vertical-align: top;
+    width: 40vw;
+    height: 100vh;
+    background-color: #e6dfdd;
+    font-size: 0;
+}
+
+.div-box {
+    font-size: 1.6rem;
+    border: 1px #A77550 solid;
+    border-radius: 8px;
+    width: 70%;
+    min-height: 20%;
+    margin: 10px auto;
+    background-color: #fff;
+}
+
+/*---------------------MAIN CONTENT------------------------*/
+
+.main-main {
+    display: inline-block;
+    vertical-align: top;
+    width: 60vw;
+    height: 100vh;
+    background-color: #d9c7c2;
+    font-size: 0;
+}
+
+.main-content {
+    padding: 20px;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/*----------------- FOOTER --------------------*/
+
+.main-footer {
+    position: relative;
+    height: 100px;
+    background-color: #F1F1EF;
+    font-size: 0;
+    overflow: hidden;
+    width: 100%; /* corregido */
+}
+
+.footer-left,
+.footer-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: #A77550;
+    white-space: nowrap;
+}
+
+.footer-left {
+    left: 30px;
+}
+
+.footer-right {
+    right: 30px;
+}
+
+.footer-item {
+    display: inline-block;
+    margin-left: 15px;
+    text-decoration: none;
+    color: #A77550;
+}
+

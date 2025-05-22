@@ -1,0 +1,88 @@
+🔹 1. static (por defecto)
+👉 Qué es:
+Es la posición por defecto de todos los elementos. El navegador los ubica en el flujo normal del documento, uno debajo del otro.
+
+📌 No acepta top, right, bottom o left.
+
+🧠 Ejemplo mental:
+Imagina una hoja donde escribes párrafos. Cada párrafo cae uno debajo del otro, sin moverlos manualmente.
+
+Ejemplo:
+
+.elemento {
+  position: static;
+}
+
+🔹 2. relative
+👉 Qué es:
+El elemento se queda en su lugar original, pero puedes moverlo un poco con top, left, etc.
+
+📌 El espacio original del elemento se mantiene.
+
+🧠 Ejemplo mental:
+Tienes una foto pegada en la pared, y la empujas un poco a la derecha sin quitarla del clavo. El espacio en la pared sigue ocupándose igual.
+
+Ejemplo:
+
+.elemento {
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+🔹 3. absolute
+👉 Qué es:
+El elemento sale completamente del flujo normal y se posiciona con respecto al elemento padre más cercano que tenga position: relative, 
+absolute, fixed o sticky.
+Si no hay ninguno, se posiciona respecto al body.
+
+📌 No ocupa espacio en el flujo.
+
+🧠 Ejemplo mental:
+Es como una calcomanía que pegas sobre una hoja. No afecta lo que está escrito debajo, pero tú eliges en qué parte exacta de la hoja la pegas.
+
+Ejemplo:
+
+.contenedor {
+  position: relative;
+}
+
+.elemento {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+🔹 4. fixed
+👉 Qué es:
+El elemento se fija en la ventana del navegador, aunque hagas scroll. Se posiciona respecto al viewport (pantalla visible del navegador).
+
+📌 Útil para menús o botones flotantes.
+
+🧠 Ejemplo mental:
+Como una nota adhesiva pegada al borde de tu pantalla: tú puedes mover la página, pero la nota siempre queda visible.
+
+Ejemplo:
+
+.elemento {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+🔹 5. sticky
+👉 Qué es:
+Es una mezcla entre relative y fixed.
+Empieza como relative, pero cuando haces scroll, se pega al viewport si llega a una posición determinada (top, left, etc.).
+
+📌 Útil para encabezados o barras que se pegan al top al hacer scroll.
+
+🧠 Ejemplo mental:
+Como una barra que "espera" en su sitio, pero si tú pasas scroll, se pega al borde superior y te sigue por un rato.
+
+Ejemplo: 
+
+.elemento {
+  position: sticky;
+  top: 0;
+}
