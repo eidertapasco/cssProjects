@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.3rem solid black;
+    display: flex; /*Se utiliza con un container principal, un padre que estilice a los hijos, viene por defecto en row:filas*/
+    height: 50vh;
+    align-items: stretch; /*estira los contenedores al 100% de su vh*/
+    align-items: baseline; /*se acomoda al tamaño de su contenido*/
+}
+.box{
+    width: 10rem;
+    /*height: 10rem; quitamos el limite de crecimiento de las box para que stretch funcione*/
+}
+.box1{
+    background-color: blue;
+    order: 3; /*cambiar el orden de los contenedores*/
+}
+.box2{
+    background-color: blueviolet;
+    order: 1;
+}
+.box3{
+    background-color: burlywood;
+   /*los que no tengan un order se moveran a la izquierda*/
+}
+.box4{
+    background-color: cadetblue;
+   
+}
+.box5{
+    background-color: coral;
+    order: 2;
+}
+.box6{
+    background-color: slateblue;
+    order: 4;
+}

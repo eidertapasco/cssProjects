@@ -11,9 +11,8 @@ body{
 }
 .container{
     border: 0.3rem solid black;
-    display: flex; /*Se utiliza con un container principal*/
-    flex-direction: row; /*row (viene por defecto), row-reverse - column, column-reverse*/
-    flex-wrap: wrap; /*Acomoda el contenido por si se reduce el tamaño*/
+    display: flex; /*Se utiliza con un container principal, un padre que estilice a los hijos, viene por defecto en row:filas*/
+    height: 50vh;
 }
 .box{
     width: 10rem;
@@ -21,19 +20,24 @@ body{
 }
 .box1{
     background-color: blue;
+
 }
 .box2{
     background-color: blueviolet;
+    flex-grow: 1; /*hace que el contenedor ocupe el espacio que haga falta*/
 }
 .box3{
     background-color: burlywood;
 }
 .box4{
     background-color: cadetblue;
+    flex-grow: 1;
 }
 .box5{
     background-color: coral;
+    
 }
 .box6{
     background-color: slateblue;
+   
 }

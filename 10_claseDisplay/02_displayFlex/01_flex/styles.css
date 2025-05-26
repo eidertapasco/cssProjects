@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.3rem solid black;
+    display: flex; /*Se utiliza con un container principal, un padre que estilice a los hijos, viene por defecto en row:filas*/
+    flex-direction: row; /*row:fila (viene por defecto), row-reverse - column, column-reverse*/
+    flex-wrap: wrap; /*Acomoda el contenido por si se reduce el tamaño */  
+}
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color: blueviolet;
+}
+.box3{
+    background-color: burlywood;
+}
+.box4{
+    background-color: cadetblue;
+}
+.box5{
+    background-color: coral;
+}
+.box6{
+    background-color: slateblue;
+}

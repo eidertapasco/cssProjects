@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.header{
+    width: 100vw;
+    background-color: #d9c7c2;
+}
+
+.header-div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px 60px;
+    padding: 10px 0;
+}
+
+.header__logo{
+    color: #A77550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    
+}
+.header-nav-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.header-main-nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-main-nav__item{
+    list-style: none;
+    margin: 0 20px;
+    padding: 10px 20px;
+}
+
+.header-main-nav__a{
+    color: #A77550;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.header-main-nav__a:hover{
+    color: #F1F1EF;
+}
+
+
+/*--------------MAIN SECTION---------------------------*/
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 80vh;
+}
+
+.main-container-aside{
+    width: 30vw;
+    background-color: #e6dfdd;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-container-section{
+    width: 70vw;
+    background-color: #fde5df;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-container__p{
+    font-size: 1.8rem;
+    padding: 2rem;
+}
+
+.main-container__box{
+    width: 40rem;
+    height: 10rem;
+    background-color: #F1F1EF;
+    border: 1px #A77550 solid;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.footer{
+    width: 100vw;
+    height: 7vh;
+    background-color: #e6dfdd;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social__item{
+    color: #A77550;
+    font-size: 2rem;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.footer-description{
+    font-size: 1.8rem;
+    margin-left: 5rem;
+    padding: 10px;
+}
