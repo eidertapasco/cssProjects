@@ -1,0 +1,3 @@
+TinyPng para quitar peso a las imagenes
+mydevice.io para ver el tamaño de dispositivos
+dribble plantillas para proyectos
